@@ -26,10 +26,12 @@ and so on to see if they are available in your repo's.
 This cycles through all your .pst files, and will convert each email to a .eml file in it's respective directory.
 You may end up with a structure like this:
 
-`export/Archive/Inbox/*.eml
-export/Archive/Folder 1/*.eml
-export/Archive/Sent Items/*.eml
-export/Archive/Deleted Items/*.eml`
+`
+    export/Archive/Inbox/*.eml
+    export/Archive/Folder 1/*.eml
+    export/Archive/Sent Items/*.eml
+    export/Archive/Deleted Items/*.eml
+`
 
 use the script as following:
 
