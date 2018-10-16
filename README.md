@@ -46,4 +46,4 @@ This will be useful later when we want to de-duplicate any emails before we add 
 
 ## Author Notes
 If you have any suggestions, improvements or any kind of questions about the scripts, please feel free to reach out to me here.
-
+I will be adding more scripts as I build them.
