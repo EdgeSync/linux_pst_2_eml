@@ -37,9 +37,9 @@ Use the script as following:
 2. bash to_eml.sh
 3. let it run
 
-## convert.sh
+## md5rename.sh
 
-This script converts your eml files in all the various directories to have a unique name by renaming it to it's md5 hash value.
+This script renames your eml files in all the various directories to have a unique name by renaming it to it's md5 hash value.
 when it finds an eml file, it does md5sum on the file, then renames the file to hash.eml
 
 This will be useful later when we want to de-duplicate any emails before we add them into a database.
