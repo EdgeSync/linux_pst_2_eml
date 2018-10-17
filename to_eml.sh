@@ -6,3 +6,7 @@ do
     count=$((count+1))
 done
 echo "Total PSTs Converted: " $count
+echo "Renaming Folders - Taking out blank spaces"
+do
+    find -name "* *" -type d | rename 's/ /_/g'
+done
